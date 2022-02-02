@@ -1,0 +1,11 @@
+@import '../../styles/scss/_variables.scss';
+
+
+.cardtemplate {
+  padding: 30px;
+  margin-bottom: 30px;
+  background-color: $white-background;
+  box-shadow: $box-shadow;
+  border-radius: 10px;
+}
+

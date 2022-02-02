@@ -1,0 +1,28 @@
+@import '../../styles/scss/_variables.scss';
+
+.cardtemplate {
+  padding: 30px;
+  margin-bottom: 30px;
+  background-color: $white-background;
+  box-shadow: $box-shadow;
+  border-radius: 10px;
+  i{
+    color: purple;
+    font-size: 22px;
+  }
+.card_inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .text-primary-p{
+    color: #ccc;
+    font-weight: bold;
+  }
+  .font-bold{
+    font-weight: 700;
+    font-size: 22px;
+  }
+}
+
+}
+

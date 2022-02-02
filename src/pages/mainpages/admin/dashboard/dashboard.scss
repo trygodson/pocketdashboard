@@ -1,0 +1,39 @@
+.row{
+  .lhs{
+
+    .wrapper{
+      background-color: white;
+      box-shadow: 0 0 7px #ccc;
+      border-radius: 10px;
+      .filter-wrapper{
+        border-bottom: 1px solid rgb(201, 199, 199);
+        padding: 20px;
+        .filter{
+          padding: 10px;
+          display: flex;
+          justify-content: flex-end;
+          button{
+            padding: 8px 12px;
+            outline: none;
+            border-radius: 7px;
+            background: none;
+            border: none;
+            margin: 0 10px;
+          }
+          .active{
+            background-color: aqua;
+          }
+        }
+      }
+      .chart-wrapper{
+        padding: 20px 30px;
+      }
+    }
+  }
+  .rhs{
+    .wrapper{
+
+    }
+    
+  }
+}

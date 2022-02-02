@@ -1,0 +1,99 @@
+@import '../../../shared/styles/scss/variables.scss';
+
+/* Custom Bootstrap Grids [for App Layout alone] */
+// col-2half, col9half
+.col-2half,
+.col-9half {
+  position: relative;
+  min-height: 1px;
+}
+
+.col-2half,
+.col-9half {
+  // border: 1px solid;
+  float: left;
+  --bs-gutter-x: 0rem;
+
+  background-color: $faint-gray;
+}
+
+.h100{
+  height: auto;
+}
+
+// @media (max-width: $xs) {
+//   .col-2half {
+//     width: 21%;
+//   }
+//   .col-9half {
+//     width: 79%;
+//   }
+// }
+
+@media (min-width: $zero) {
+  .col-2half {
+    width: 15%;
+  }
+  .col-9half {
+    width: 85%;
+  }
+}
+
+@media (min-width: $sm) {
+  .col-2half {
+    width: 11%;
+  }
+  .col-9half {
+    width: 89%;
+  }
+}
+
+@media (min-width: $md) {
+  .col-2half {
+    width: 10%;
+  }
+  .col-9half {
+    width: 90%;
+  }
+}
+
+@media (min-width: $lg) {
+  .col-2half {
+    width: 18%;
+    transition: width 0.3s ease-in-out;
+
+  }
+  .col-9half {
+    width: 82%;
+    transition: width 0.3s ease-in-out;
+
+  }
+}
+
+// col-0half, col11half
+.col-0half,
+.col-11half {
+  position: relative;
+  min-height: 1px;
+}
+
+.col-0half,
+.col-11half {
+  float: left;
+  transition: width 0.3s ease-in-out;
+
+}
+@media (min-width: $lg) {
+  .col-0half {
+    width: 6%;
+    
+  }
+  .col-11half {
+    width: 94%;
+  }
+}
+
+.app-layout {
+  background: $gray-background;
+  // min-height: 100vh!important;
+}

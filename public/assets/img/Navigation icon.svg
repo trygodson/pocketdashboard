@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46">
+  <g id="Navigation_icon" data-name="Navigation icon" transform="translate(-197 -291)">
+    <g id="Group_1853" data-name="Group 1853">
+      <circle id="Oval" cx="23" cy="23" r="23" transform="translate(197 291)" fill="rgba(0,144,255,0.25)"/>
+      <circle id="Oval-2" data-name="Oval" cx="18" cy="18" r="18" transform="translate(202 296)" fill="rgba(0,144,255,0.5)"/>
+      <circle id="Oval-3" data-name="Oval" cx="13" cy="13" r="13" transform="translate(207 301)" fill="#fff"/>
+      <g id="Group_25" data-name="Group 25" transform="translate(-181.919 -49.365)">
+        <path id="Path_288" data-name="Path 288" d="M462.7,416.179a2.572,2.572,0,1,0,.638,3.581A2.573,2.573,0,0,0,462.7,416.179Zm-2.206,3.166a1.286,1.286,0,1,1,1.79-.32A1.286,1.286,0,0,1,460.489,419.345Z" transform="translate(-58.844 -57.547)" fill="#019ef3"/>
+        <path id="Path_289" data-name="Path 289" d="M408.824,361.062a6.243,6.243,0,0,1-.108.961l-2.03-1.415a4.307,4.307,0,1,0-2.941,4.219l2.4,1.676-3.82,5.926-4.585-7.111h0l-1.383-2.145c-.017-.044-.034-.089-.05-.135h0a6.455,6.455,0,1,1,12.514-1.974Z" fill="#019ef3"/>
+      </g>
+    </g>
+  </g>
+</svg>
